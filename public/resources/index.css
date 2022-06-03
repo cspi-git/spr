@@ -1,0 +1,54 @@
+/* Main */
+body, html {
+    background-color: #010101;
+}
+
+/* Adjustments */
+@media only screen and (max-device-width : 640px) {
+    #right-nav, #explore-text {
+        font-size: 10px;
+    }
+
+    #title {
+        font-size: 10px;
+    }
+
+    #explore-text-container {
+        top: 20%;
+    }
+}
+
+#title {
+    font-size: 30px;
+}
+
+/* Effects */
+.explore-text-expand:hover {
+    color: #FE4433;
+    font-size: 23px;
+}
+
+/* Utils */
+.text-white {
+    color: white;
+}
+
+.text-white-v1 {
+    color: #BBBBBB;
+}
+
+.text-balance-red {
+    color: #FE4433;
+}
+
+.background-black-v1 {
+    background-color: #131217;
+}
+
+.background-black-v2 {
+    background-color: #111111;
+}
+
+.background-black-v3 {
+    background-color: #010101;
+}

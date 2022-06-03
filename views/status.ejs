@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="UTF-8">
+
+        <title>SPR</title>
+
+        <link rel="icon" href="/resources/images/favicon.png">
+    </head>
+    <body>
+        <!-- Dependencies -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css">
+        <link rel="stylesheet" href="/resources/index.css">
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Main -->
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="/"><img src="/resources/images/favicon.png" width="60px"></a>
+                </div>
+
+                <div class="uk-navbar-right">
+                    <lu class="uk-navbar-nav" style="margin-right: 4vh;">
+                        <li><a href="/explore" id="right-nav">Explore</a></li>
+                        <li><a href="/status" id="right-nav">Status</a></li>
+                        <li><a href="/" id="right-nav">Home</a></li>
+                    </lu>
+                </div>
+            </nav>
+        </div>
+
+        <div id="explore-text-container" style="top: 25%; left: 1%;" class="uk-container uk-position-center-left">
+            <ul>
+                <li><span id="explore-text" style="text-decoration: none;" class="text-balance-red explore-text-expand">Malicious domains: <%= maliciousDomains %></span></li>
+                <li><span id="explore-text" style="text-decoration: none;" class="text-balance-red explore-text-expand">Malware Hash: <%= malwareHash %></span></li>
+                <li><span id="explore-text" style="text-decoration: none;" class="text-balance-red explore-text-expand">Malicious Youtube Channels: <%= maliciousYoutubeChannels %></span></li>
+                <li><span id="explore-text" style="text-decoration: none;" class="text-balance-red explore-text-expand">Malicious Discord Servers: <%= maliciousDiscordServers %></span></li>
+            </ul>
+        </div>
+    </body>
+</html>
