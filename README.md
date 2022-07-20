@@ -9,7 +9,7 @@ git clone https://github.com/OTAKKATO/spr
 
 NpmJS:
 ```
-npm i mongodb express helmet path fs
+npm i ejs dotenv mongodb express helmet path fs
 ```
 
 ## Usage
